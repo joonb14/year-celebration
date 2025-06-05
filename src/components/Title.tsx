@@ -12,7 +12,7 @@ const Layout = styled("div", {
 const TitleWrapper = styled("div", {
   position: "absolute",
   width: "100%",
-  top: "20%",
+  top: "10%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   textAlign: "center",
@@ -39,13 +39,6 @@ const WeddingInvitation = styled("p", {
   marginBottom: 16,
 });
 
-const GroomBride = styled("p", {
-  fontSize: "3.5vh",
-  fontWeight: "bold",
-  opacity: 0.9,
-  marginBottom: 16,
-});
-
 const Schedule = styled("p", {
   fontSize: "2vh",
   opacity: 0.65,
@@ -63,10 +56,7 @@ export default function Title({ data }: TitleProps) {
         <source src="./assets/BackgroundVideo.mp4" type="video/mp4" />
       </VideoBackground>
       <TitleWrapper>
-        <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
-        <GroomBride>
-          {data?.groom?.name} &#38; {data?.bride?.name}
-        </GroomBride>
+        <WeddingInvitation>재하의 돌잔치에 초대합니다</WeddingInvitation>
         <Schedule>
           {data?.date}
           <br />

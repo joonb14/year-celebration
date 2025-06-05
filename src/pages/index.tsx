@@ -8,13 +8,8 @@ import Script from "next/script";
 
 const Title = dynamic(() => import("@/components/Title"), { ssr: false });
 const Gretting = dynamic(() => import("@/components/Gretting"), { ssr: false });
-const Gallery = dynamic(() => import("@/components/Gallery"), { ssr: false });
+const ImageGallery = dynamic(() => import("@/components/ImageGallery"), { ssr: false });
 const Location = dynamic(() => import("@/components/Location"), { ssr: false });
-const CongratulatoryMoney = dynamic(
-  () => import("@/components/CongratulatoryMoney"),
-  { ssr: false }
-);
-const Share = dynamic(() => import("@/components/Share"), { ssr: false });
 
 const notoSansKR = Noto_Sans_KR({
   weight: ["400", "700"],
@@ -44,33 +39,32 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
-        <meta content="○○○❤○○○ 결혼식에 초대합니다" name="Title" />
+        <meta content="재하의 돌잔치에 초대합니다" name="Title" />
         <meta
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
+          content="2025년 7월 5일 토요일 오전 11시 50분"
           name="Description"
         />
-        <meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
-        <meta property="og:title" content="○○○❤○○○ 결혼식에 초대합니다" />
+        <meta content="2025년 7월 5일 토요일 오전 11시 50분" name="Keyword" />
+        <meta property="og:title" content="재하의 돌잔치에 초대합니다" />
         <meta
           property="og:description"
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
+          content="2025년 7월 5일 토요일 오전 11시 50분"
         />
         <meta
           property="og:url"
           content="https://kyuhyuk.kr/wedding-invitation"
         />
         <meta name="theme-color" content="#BCAAA4" />
-        <title>○○○❤○○○ 결혼식에 초대합니다</title>
+        <title>재하의 돌잔치에 초대합니다</title>
       </Head>
       <main className={`${notoSansKR.className}`}>
         <Script src="https://developers.kakao.com/sdk/js/kakao.min.js"></Script>
         <Title data={JsonData} />
         <Gretting data={JsonData} />
-        <Gallery />
+        <ImageGallery />
         <Location />
-        <CongratulatoryMoney data={JsonData} />
-        <Share data={JsonData} />
-        <Footer>Copyright © 2021 KyuHyuk Lee</Footer>
+        {/* <CongratulatoryMoney data={JsonData} /> */}
+        {/* <Share data={JsonData} /> */}
       </main>
     </>
   );
