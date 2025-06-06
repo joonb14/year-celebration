@@ -34,13 +34,15 @@ const VideoBackground = styled("video", {
 });
 
 const WeddingInvitation = styled("p", {
-  fontSize: "1.5vh",
+  fontFamily: "CookieRunBold",
+  fontSize: "2vh",
   opacity: 0.45,
   marginBottom: 16,
 });
 
 const Schedule = styled("p", {
-  fontSize: "2vh",
+  fontFamily: "CookieRunBold",
+  fontSize: "2.5vh",
   opacity: 0.65,
   marginBottom: 24,
 });

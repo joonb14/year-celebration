@@ -41,18 +41,18 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta content="재하의 돌잔치에 초대합니다" name="Title" />
         <meta
-          content="2025년 7월 5일 토요일 오전 11시 50분"
+          content="2025년 7월 5일 토요일 오후 12시"
           name="Description"
         />
-        <meta content="2025년 7월 5일 토요일 오전 11시 50분" name="Keyword" />
+        <meta content="2025년 7월 5일 토요일 오후 12시" name="Keyword" />
         <meta property="og:title" content="재하의 돌잔치에 초대합니다" />
         <meta
           property="og:description"
-          content="2025년 7월 5일 토요일 오전 11시 50분"
+          content="2025년 7월 5일 토요일 오후 12시"
         />
         <meta
           property="og:url"
-          content="https://kyuhyuk.kr/wedding-invitation"
+          content="https://joonb14.github.io/year-celebration"
         />
         <meta name="theme-color" content="#BCAAA4" />
         <title>재하의 돌잔치에 초대합니다</title>
@@ -63,8 +63,6 @@ export default function Home() {
         <Gretting data={JsonData} />
         <ImageGallery />
         <Location />
-        {/* <CongratulatoryMoney data={JsonData} /> */}
-        {/* <Share data={JsonData} /> */}
       </main>
     </>
   );

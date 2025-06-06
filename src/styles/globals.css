@@ -10,6 +10,22 @@ body {
     'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+@font-face {
+  font-family: "CookieRunRegular";
+  font-weight: 50;
+  src: url("./fonts/CookieRunRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CookieRunBold";
+  font-weight: 50;
+  src: url("./fonts/CookieRunBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CookieRunBlack";
+  font-weight: 50;
+  src: url("./fonts/CookieRunBlack.ttf") format("truetype");
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
