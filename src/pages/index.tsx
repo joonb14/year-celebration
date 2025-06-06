@@ -38,22 +38,17 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:type" content="website" />
         <meta content="재하의 돌잔치에 초대합니다" name="Title" />
-        <meta
-          content="2025년 7월 5일 토요일 오후 12시"
-          name="Description"
-        />
-        <meta content="2025년 7월 5일 토요일 오후 12시" name="Keyword" />
+        <meta content="2025년 7월 5일 토요일 오후 12시 디토레스토랑" name="Description" />
+        <meta content="2025년 7월 5일 토요일 오후 12시 디토레스토랑" name="Keyword" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="재하의 돌잔치 초대장" />
+        <meta property="og:url" content="https://joonb14.github.io/year-celebration" />
         <meta property="og:title" content="재하의 돌잔치에 초대합니다" />
-        <meta
-          property="og:description"
-          content="2025년 7월 5일 토요일 오후 12시"
-        />
-        <meta
-          property="og:url"
-          content="https://joonb14.github.io/year-celebration"
-        />
+        <meta property="og:description" content="2025년 7월 5일 토요일 오후 12시 디토레스토랑" />
+        <meta property="og:image" content="https://joonb14.github.io/year-celebration/assets/1.jpg" />
+        <meta property="og:image:width" content="1339" />
+        <meta property="og:image:height" content="893" />
         <meta name="theme-color" content="#BCAAA4" />
         <title>재하의 돌잔치에 초대합니다</title>
       </Head>
