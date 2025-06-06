@@ -40,18 +40,14 @@ const ThumbnailImage = styled("img", {
 
 const images = [
   { original: "./assets/1.jpg", thumbnail: "./assets/1.jpg", width: 1339, height: 893 },
-  { original: "./assets/2.jpg", thumbnail: "./assets/2.jpg", width: 880, height: 1320 },
   { original: "./assets/3.jpg", thumbnail: "./assets/3.jpg", width: 1024, height: 1364 },
-  { original: "./assets/4.jpg", thumbnail: "./assets/4.jpg", width: 977, height: 735 },
   { original: "./assets/5.jpg", thumbnail: "./assets/5.jpg", width: 1339, height: 893 },
   { original: "./assets/6.jpg", thumbnail: "./assets/6.jpg", width: 1050, height: 1400 },
-  { original: "./assets/7.jpg", thumbnail: "./assets/7.jpg", width: 1050, height: 1400 },
   { original: "./assets/8.jpg", thumbnail: "./assets/8.jpg", width: 893, height: 1339 },
   { original: "./assets/9.jpg", thumbnail: "./assets/9.jpg", width: 1050, height: 1400 },
   { original: "./assets/10.jpg", thumbnail: "./assets/10.jpg", width: 1050, height: 1400 },
   { original: "./assets/11.jpg", thumbnail: "./assets/11.jpg", width: 1050, height: 1400 },
   { original: "./assets/12.jpg", thumbnail: "./assets/12.jpg", width: 1050, height: 1400 },
-  { original: "./assets/13.jpg", thumbnail: "./assets/13.jpg", width: 907, height: 1613 },
   { original: "./assets/14.jpg", thumbnail: "./assets/14.jpg", width: 1050, height: 1400 },
   { original: "./assets/15.jpg", thumbnail: "./assets/15.jpg", width: 1050, height: 1400 },
   { original: "./assets/16.jpg", thumbnail: "./assets/16.jpg", width: 1050, height: 1400 },
@@ -59,6 +55,10 @@ const images = [
   { original: "./assets/18.jpg", thumbnail: "./assets/18.jpg", width: 739, height: 1600 },
   { original: "./assets/19.jpg", thumbnail: "./assets/19.jpg", width: 1411, height: 1058 },
   { original: "./assets/20.jpg", thumbnail: "./assets/20.jpg", width: 1050, height: 1400 },
+  { original: "./assets/7.jpg", thumbnail: "./assets/7.jpg", width: 1050, height: 1400 },
+  { original: "./assets/13.jpg", thumbnail: "./assets/13.jpg", width: 907, height: 1613 },
+  { original: "./assets/4.jpg", thumbnail: "./assets/4.jpg", width: 977, height: 735 },
+  { original: "./assets/2.jpg", thumbnail: "./assets/2.jpg", width: 880, height: 1320 },
 ];
 
 export default function ImageGallery() {
